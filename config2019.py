@@ -11,9 +11,9 @@ __author__ = "Xin Wang"
 __email__ = "wangxin@nii.ac.jp"
 __copyright__ = "Copyright 2020, Xin Wang"
 
-#########################################################
+########################################################
 ## Configuration for training stage
-#########################################################
+########################################################
 
 # Name of datasets
 #  after data preparation, trn/val_set_name are used to save statistics
