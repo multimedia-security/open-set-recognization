@@ -20,7 +20,7 @@ import core_scripts.data_io.customize_collate_fn as nii_collate_fn
 
 
 def train(epoch):
-    print('\nEpoch: %d' % epoch)
+    print('\nEpoch:  %d' % epoch)
     net.train()
     train_loss = 0
     correct = 0
