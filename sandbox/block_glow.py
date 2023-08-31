@@ -14,10 +14,6 @@ import torch.nn.functional as torch_nn_func
 
 import core_scripts.data_io.conf as nii_io_conf
 
-__author__ = "Xin Wang"
-__email__ = "wangxin@nii.ac.jp"
-__copyright__ = "Copyright 2020, Xin Wang"
-
 def sum_over_keep_batch(data):
     # (batch, dim1, dim2, ..., ) -> (batch)
     # sum over dim1, dim2, ...
