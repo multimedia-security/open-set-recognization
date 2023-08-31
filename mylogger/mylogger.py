@@ -39,4 +39,4 @@ class mylogger:
 
 if __name__ == '__main__':
     mylogger = mylogger()
-    mylogger.logger.info('hello')
+    mylogger.logger.info('hello') 
