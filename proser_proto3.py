@@ -31,6 +31,7 @@ def progress_bar(s, total, str):
     start = '*' * int(s + 1)
     end = '.' * int(total - s)
     print('\r{:.2f}%[{}->{}]{}'.format(c, start, end, str), end='')
+    
 
 
 def evaluate(target, pred, nb_per_class, correct_per_class):
