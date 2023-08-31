@@ -1,8 +1,5 @@
 ''' Incremental-Classifier Learning 
- Authors : Khurram Javed, Muhammad Talha Paracha
- Maintainer : Khurram Javed
- Lab : TUKL-SEECS R&D Lab
- Email : 14besekjaved@seecs.edu.pk '''
+'''
 
 import copy
 import logging
