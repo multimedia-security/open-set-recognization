@@ -14,10 +14,6 @@ import torch
 import torch.nn as torch_nn
 import torch.nn.functional as torch_nn_func
 
-__author__ = "Xin Wang"
-__email__ = "wangxin@nii.ac.jp"
-__copyright__ = "Copyright 2020, Xin Wang"
-
 # 
 class GradientReversalFunction(torch.autograd.Function):
     """ https://cyberagent.ai/blog/research/11863/
